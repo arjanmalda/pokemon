@@ -162,7 +162,7 @@ const Pokemon: React.FC<PokemonData> = (): JSX.Element => {
   if (searchResult) {
     return (
       <>
-        <h1>Search a pokemon</h1>
+        <h1>Search through all pokemons</h1>
         <input type="search" onChange={searchPokemon} />
         <button>Search</button>
         {searchResult.map((pokemon: any) => (
